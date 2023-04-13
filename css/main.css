@@ -982,6 +982,7 @@ pre .javascript .function {
   color: var(--brand-hover-color);
 }
 .site-title {
+  color: #f2ebe5;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1.375em;
   font-weight: normal;
@@ -1165,7 +1166,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #20daff;
+  background: #ffdfff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2352,7 +2353,7 @@ mjx-container + br {
   }
 }
 .site-brand-container {
-  background: #98f5ff;
+  background: #000;
 }
 @media (max-width: 991px) {
   .site-brand-container {
