@@ -1166,7 +1166,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #732105;
+  background: #73e5ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2575,7 +2575,7 @@ body {
 .main-inner > .tabs-comment,
 .main-inner > .comments,
 .main-inner > .pagination {
-  background: #9f496e;
+  background: rgba(245,245,245,0.42);
 }
 body {
   color: #647295;
@@ -2587,7 +2587,7 @@ body {
   color: #800;
 }
 .sidebar {
-  opacity: #9f496e;
+  opacity: rgba(159,73,110,0.8);
 }
 .header-inner {
   background: rgba(255,255,255,0.8);
@@ -2596,8 +2596,7 @@ body {
   opacity: 0.8;
 }
 .main-inner {
-  background-color: #9f496e;
-  padding: 0px 40px 40px 40px;
+  opacity: 8;
 }
 code {
   padding: 2px 4px;
