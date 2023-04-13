@@ -167,7 +167,7 @@ template {
   display: none;
 }
 ::selection {
-  background: #262a30;
+  background: #ee3a8c;
   color: #eee;
 }
 html,
@@ -1165,7 +1165,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #8e4579;
+  background: #ffed25;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2290,7 +2290,7 @@ mjx-container + br {
 }
 .header-inner {
   background: var(--content-bg-color);
-  border-radius: initial;
+  border-radius: 30px 30px 30px 30px;
   box-shadow: initial;
   overflow: hidden;
   padding: 0;
@@ -2322,7 +2322,7 @@ mjx-container + br {
 }
 .content-wrap {
   background: var(--content-bg-color);
-  border-radius: initial;
+  border-radius: 30px 30px 30px 30px;
   box-shadow: initial;
   box-sizing: border-box;
   padding: 40px;
@@ -2352,7 +2352,7 @@ mjx-container + br {
   }
 }
 .site-brand-container {
-  background: #222;
+  background: #0ff;
 }
 @media (max-width: 991px) {
   .site-brand-container {
@@ -2477,7 +2477,7 @@ mjx-container + br {
 }
 .sidebar-inner {
   background: var(--content-bg-color);
-  border-radius: initial;
+  border-radius: 30px;
   box-shadow: initial;
   box-sizing: border-box;
   color: var(--text-color);
@@ -2563,9 +2563,38 @@ mjx-container + br {
   padding: 0;
 }
 body {
-  background: url("images/background.png");
+  background: url("/images/background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
+}
+.main-inner > .sub-menu,
+.main-inner > .post-block,
+.main-inner > .tabs-comment,
+.main-inner > .comments,
+.main-inner > .pagination {
+  background: rgba(245,245,245,0.42);
+}
+body {
+  color: #000;
+}
+.posts-expand .post-title-link {
+  color: #000;
+}
+.posts-expand .post-meta-container {
+  color: #800;
+}
+.sidebar {
+  opacity: 0.7;
+}
+.header-inner {
+  background: rgba(255,255,255,0.7);
+}
+.popup {
+  opacity: 0.5;
+}
+.main-inner {
+  background-color: rgba(255,255,255,0);
+  padding: 0px 40px 40px 40px;
 }
