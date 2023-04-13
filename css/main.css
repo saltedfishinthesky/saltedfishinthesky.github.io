@@ -1166,7 +1166,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #759fff;
+  background: #bf7a32;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2575,10 +2575,10 @@ body {
 .main-inner > .tabs-comment,
 .main-inner > .comments,
 .main-inner > .pagination {
-  background: rgba(245,245,245,0.42);
+  background: #daa520;
 }
 body {
-  color: #647295;
+  color: #2f4f4f;
 }
 .posts-expand .post-title-link {
   color: #2b262d;
